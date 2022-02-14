@@ -12,8 +12,8 @@ class Fend < Formula
   end
 
   bottle do
-    root_url "https://github.com/printfn/homebrew-fend/releases/download/#{version}"
-    revision 1
+    root_url "https://github.com/printfn/homebrew-fend/releases/download/v0.1.28"
+    rebuild 1
     sha256 cellar: :any_skip_relocation, monterey: "96f5090b434157fd3cbe9d1e80a99c5b29772547e227df28ac198927912ef402"
   end
 
