@@ -1,11 +1,8 @@
-# Printfn Fend
+# Homebrew Tap printfn/fend
 
-## How do I install these formulae?
+You can use this tap to install `fend` like so:
 
-`brew install printfn/fend/<formula>`
-
-Or `brew tap printfn/fend` and then `brew install <formula>`.
-
-## Documentation
-
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+```
+brew tap printfn/fend
+brew install fend
+```
