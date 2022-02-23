@@ -1,5 +1,5 @@
 class Fend < Formula
-  desc "Arbitrary-precision unit-aware calculator."
+  desc "Arbitrary-precision unit-aware calculator"
   homepage "https://printfn.github.io/fend-website"
   url "https://github.com/printfn/fend/archive/refs/tags/v0.1.29.tar.gz"
   sha256 "926e6d5c4c13573f2c93126ca9b6a82ad6cd270e9738ce07c5d9e246b4f84dbd"
