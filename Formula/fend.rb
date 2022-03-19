@@ -1,8 +1,8 @@
 class Fend < Formula
   desc "Arbitrary-precision unit-aware calculator"
   homepage "https://printfn.github.io/fend-website"
-  url "https://github.com/printfn/fend/archive/refs/tags/v1.0.0.tar.gz"
-  sha256 "52a795d37bb9a5496f582cd05e42f5296f1e6c888f53ac603611d63df7ab865b"
+  url "https://github.com/printfn/fend/archive/refs/tags/v1.0.1.tar.gz"
+  sha256 "1bc810b3ebfac8c97195b2aeba341f1e07d7ed58a5efc61e3597d76f358672f5"
   license "MIT"
   head "https://github.com/printfn/fend.git", branch: "main"
 
@@ -12,9 +12,7 @@ class Fend < Formula
   end
 
   bottle do
-    root_url "https://github.com/printfn/homebrew-fend/releases/download/v1.0.0"
-    rebuild 1
-    sha256 cellar: :any_skip_relocation, monterey: "15c7d6d31d050bba8ee2fe32e9d5dc62fe741f3c6539ca5fddad05fade08b136"
+    root_url "https://github.com/printfn/homebrew-fend/releases/download/v1.0.1"
   end
 
   depends_on "rust" => :build
