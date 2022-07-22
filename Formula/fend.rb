@@ -13,6 +13,8 @@ class Fend < Formula
 
   bottle do
     root_url "https://github.com/printfn/homebrew-fend/releases/download/v1.0.4"
+    rebuild 1
+    sha256 cellar: :any_skip_relocation, arm64_monterey: "fa86893842a7040b74a541a75335d7f97beb344ab13ac7c3529f7d6f56ebd5c1"
   end
 
   depends_on "rust" => :build
